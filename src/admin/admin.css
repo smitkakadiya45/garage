@@ -1,0 +1,260 @@
+/* .admin-outer {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f4f6f9;
+  padding: 30px;
+  min-height: 100vh;
+}
+
+.admin-inner {
+  display: flex;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  overflow: hidden;
+}
+
+.admin-sidebar {
+  width: 220px;
+  background: #2c3e50;
+  color: white;
+  padding: 20px;
+}
+
+.admin-sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.admin-sidebar li {
+  padding: 12px 0;
+  cursor: pointer;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+  transition: all 0.3s;
+}
+
+.admin-sidebar li:hover {
+  background: #34495e;
+  padding-left: 10px;
+}
+
+.admin-content {
+  flex-grow: 1;
+  padding: 30px;
+  overflow-x: auto;
+}
+
+.admin-section {
+  margin-bottom: 40px;
+}
+
+.admin-section h2 {
+  margin-bottom: 15px;
+  color: #2c3e50;
+  font-size: 22px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #ffffff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+thead {
+  background: #ecf0f1;
+}
+
+th, td {
+  padding: 12px 16px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+button {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 6px;
+  background-color: #3498db;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: #2980b9;
+} */
+
+
+/* Base styles */
+.admin-title {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+.admin-outer {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+.admin-inner {
+  display: flex;
+  width: 100%;
+  max-width: 1200px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  background: #fff;
+}
+
+/* Sidebar */
+.admin-inner .admin-sidebar {
+  background-color: #343a40;
+  color: white;
+  min-width: 200px;
+  padding: 20px;
+}
+
+.admin-inner .admin-sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.admin-inner .admin-sidebar li {
+  padding: 12px 0;
+  cursor: pointer;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  transition: background 0.3s;
+}
+
+.admin-inner .admin-sidebar li:hover {
+  background-color: #495057;
+  border-radius: 4px;
+  padding-left: 10px;
+}
+
+/* Content area */
+.admin-inner .admin-content {
+  flex-grow: 1;
+  padding: 30px;
+  background-color: #f1f3f5;
+  overflow-y: auto;
+}
+
+.admin-inner .admin-content .admin-section {
+  background: #fff;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.admin-inner .admin-content .admin-section h2 {
+  margin-top: 0;
+  color: #495057;
+  border-bottom: 2px solid #dee2e6;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+/* Table styles */
+.admin-inner .admin-content .admin-section table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.admin-inner .admin-content .admin-section th,
+td {
+  text-align: left;
+  padding: 12px 15px;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.admin-inner .admin-content .admin-section thead {
+  background-color: #e9ecef;
+  font-weight: bold;
+}
+
+.admin-inner .admin-content .admin-section tbody tr:hover {
+  background-color: #f8f9fa;
+}
+
+/* Button styles */
+.admin-inner .admin-content .admin-section button {
+  padding: 6px 12px;
+  background-color: #ffa200;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.admin-inner .admin-content .admin-section button:hover {
+  background-color: red;
+}
+
+@media (max-width: 768px) {
+  .admin-inner {
+    flex-direction: column;
+  }
+
+  .admin-inner .admin-sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+
+  .admin-inner .admin-sidebar ul {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .admin-inner .admin-content {
+    padding: 1rem;
+  }
+
+  .admin-inner .admin-content .admin-section table,
+  thead,
+  tbody,
+  th,
+  td,
+  tr {
+    display: block;
+  }
+
+  .admin-inner .admin-content .admin-section table thead {
+    display: none;
+  }
+
+  .admin-inner .admin-content .admin-section table tr {
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 0.5rem;
+    background: #fff;
+  }
+
+  .admin-inner .admin-content .admin-section table td {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-bottom: 1px solid #eee;
+  }
+
+  .admin-inner .admin-content .admin-section table td:last-child {
+    border-bottom: none;
+  }
+}

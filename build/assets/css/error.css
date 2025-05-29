@@ -1,0 +1,97 @@
+.error-outer{
+    display: block;
+    clear: both;
+    position: relative;
+}
+.error-outer>.img{
+    position: relative;
+}
+.error-outer>.img .blac{
+    background-color: rgba(0,0,0,0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.error-inner{
+    display: flex;
+    margin-left: -15px;
+    margin-right: -15px;
+    text-align: center;
+    background-color: #ffffff;
+    padding: 0 160px 50px 160px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.error-inner-child{
+    display: block;
+    width: 100%;
+    padding: 0 15px;
+    box-sizing: border-box;
+    
+}
+.error-inner-child>img{
+    position: absolute;
+    left: 50%;
+    bottom: 77%;
+    width: 55px;
+    height: 130px;
+    margin: 0 0 0 -32px;
+}
+.error-inner-child>.text>h3{
+    font-weight: bold;
+    color: #282b2d;
+    margin-bottom: 16px;
+    font-size: 32px;
+    letter-spacing: 0.5px;
+}
+.error-inner-child>.text>p{
+    width: 80%;
+    color: #575a7b;
+    letter-spacing: 0.5px;
+    font-weight: 400;
+    line-height: 1.7;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+.error-inner-child>.text>a{
+    display: inline-block;
+    color: #ffffff;
+    background-color: #3b3b3b;
+    padding: 13px 40px;
+    line-height: 25px;
+    font-weight: 500;
+    text-transform: capitalize;
+    border-radius: 4px;
+    transition: all 0.3s;
+}
+.error-inner-child>.text>a:hover{
+    background-color: #ffa200;
+}
+.error-inner-child>h2{
+    display: inline-block;
+    font-size: 180px; 
+    font-weight: 700;
+    position: relative;
+    text-transform: uppercase;
+    color: #ffa200;
+    padding: 20px;
+    margin-bottom: 50px;
+    transform: rotate(-4deg);
+    border: 1px solid #ededed;
+    box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.05);
+    background-color: #ffffff;
+}
+.error-inner-child>h2>span{
+    font-size: 60px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    color: #3b3b3b;
+    line-height: 32px;
+    background-color: #ffffff;
+}
