@@ -54,7 +54,7 @@ const Serviceplan = () => {
 
 
         
-        axios.post("http://localhost:1000/serviceplan",{name,email,serviceplan,date,time,number,price}).then(function(response){
+        axios.post("http://localhost:5000/serviceplan",{name,email,serviceplan,date,time,number,price}).then(function(response){
             if(response.data.status === "seccess"){
             alert("we are contact you soon as possible")
             nav("/")

@@ -15,7 +15,7 @@ const Admin = () => {
     const [set, setset] = useState("inquires");
 
     useEffect(() => {
-        axios.get("http://localhost:1000/inquiryget").then(function (response) {
+        axios.get("http://localhost:5000/inquiryget").then(function (response) {
             setdata(response.data.data)
         })
 
@@ -27,13 +27,13 @@ const Admin = () => {
     }
     const demo1 = () => {
         setset("book services")
-        axios.get("http://localhost:1000/servicebookget").then(function (response) {
+        axios.get("http://localhost:5000/servicebookget").then(function (response) {
             setbook(response.data.data)
         })
     }
     const demo2 = () => {
         setset("plan book")
-        axios.get("http://localhost:1000/serviceplanget").then(function (response) {
+        axios.get("http://localhost:5000/serviceplanget").then(function (response) {
             setplan(response.data.data)
         })
     }
