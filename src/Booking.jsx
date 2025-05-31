@@ -35,7 +35,7 @@ const BookingForm = () => {
 
 
 
-        axios.post("https://garage-p7qv.onrender.com/servicebook", { name, email, service, date, time, notes, number }).then(function (response) {
+        axios.post("https://g-b9eg.onrender.com/servicebook", { name, email, service, date, time, notes, number }).then(function (response) {
             if (response.data.status === "seccess") {
                 alert("we are contact you soon as possible")
                 nav("/")

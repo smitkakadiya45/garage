@@ -27,7 +27,7 @@ const Contactlast = () => {
         var massage = e.current.value;
 
 
-        axios.post("https://garage-p7qv.onrender.com/inquiry", { name, email, subject, number, massage }).then(function (response) {
+        axios.post("https://g-b9eg.onrender.com/inquiry", { name, email, subject, number, massage }).then(function (response) {
             if (response.data.status === "seccess") {
                 alert("massage was sent")
             }
