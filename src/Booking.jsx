@@ -31,7 +31,7 @@ const BookingForm = () => {
         var date = d.current.value;
         var time = e.current.value;
         var notes = f.current.value;
-        var number = f.current.value;
+        var number = g.current.value;
 
 
 

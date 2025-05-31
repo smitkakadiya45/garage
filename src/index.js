@@ -26,7 +26,7 @@ root.render(
       <Route path="/history" element={<Ourhistory/>} />
       <Route path="/ourteam" element={<Ourteam/>} />
       <Route path="/pricing" element={<Price/>} />
-      <Route path="/book" element={<BookingForm/>} />
+      <Route path="/bookform" element={<BookingForm/>} />
       <Route path="/serviceplan" element={<Serviceplan/>} />
       <Route path="/adminpanel" element={<Admin/>} />
       <Route path="/*" element={<Error/>} />
