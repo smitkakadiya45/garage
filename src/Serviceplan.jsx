@@ -1,4 +1,4 @@
-import react from 'react';
+// import react from 'react';
 import { useRef, useState } from 'react';
 import './book.css';
 import axios from 'axios';
@@ -14,7 +14,7 @@ const Serviceplan = () => {
     var c = useRef();
     var d = useRef();
     var e = useRef();
-    var f = useRef();
+    // var f = useRef();
     var g = useRef();
     var h = useRef();
     const[data,setdata] = useState();

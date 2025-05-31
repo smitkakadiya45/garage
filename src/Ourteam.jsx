@@ -2,7 +2,7 @@ import React from "react";
 import First from "./First";
 import Footerbottom from "./Footerbottom";
 import Footermiddle from "./Footermiddle";
-import Excellent from "./Excellent";
+// import Excellent from "./Excellent";
 import Excellentpro from "./Excellentpro";
 import Header from "./Header";
 
