@@ -8,7 +8,7 @@ const Specialservicepro = (abc) => {
             <img src={abc.img} alt="img" />
         </div>
         <div id="t1" className="text">
-            <Link to="#">{abc.title}</Link>
+            <Link >{abc.title}</Link>
             <p>
                 We are the assistance that assessments <br />
                 genuinely the issues with the vehicle.

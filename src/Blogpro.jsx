@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Blogpro = (a) => {
   return (
@@ -12,16 +13,16 @@ const Blogpro = (a) => {
           <span>{a.month}</span>
         </div>
         <div className="text">
-          <a className="a1" href="#">
+          <Link className="a1">
             {a.title}
-          </a>
+          </Link>
           <span>
             A ton of auto fix clients questions the <br />
             significance of wheel arrangement.
           </span>
-          <a className="a2" href="#">
+          <Link className="a2">
             read more
-          </a>
+          </Link>
           <div className="text2">
             <div className="img">
               <img src={a.img2} alt="img" />

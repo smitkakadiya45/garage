@@ -54,8 +54,8 @@ const Workers = () => {
                                     <img src="assets/image/wo1.jpg" alt="img" />
                                 </div>
                                 <div className="text">
-                                    <Link to="#">engine servicing</Link>
-                                    <Link to="#"><i className="fa-solid fa-arrow-right"></i></Link>
+                                    <Link >engine servicing</Link>
+                                    <Link ><i className="fa-solid fa-arrow-right"></i></Link>
                                 </div>
                             </div>
                         </SwiperSlide>
@@ -65,8 +65,8 @@ const Workers = () => {
                                     <img src="assets/image/wo2.jpg" alt="img" />
                                 </div>
                                 <div className="text">
-                                    <Link style={{ paddingRight: "98px" }} to="#">Dent repair glass</Link>
-                                    <Link to="#"><i className="fa-solid fa-arrow-right"></i></Link>
+                                    <Link style={{ paddingRight: "98px" }} >Dent repair glass</Link>
+                                    <Link ><i className="fa-solid fa-arrow-right"></i></Link>
                                 </div>
                             </div>
                         </SwiperSlide>
@@ -76,8 +76,8 @@ const Workers = () => {
                                     <img src="assets/image/wo3.jpg" alt="img" />
                                 </div>
                                 <div className="text">
-                                    <Link to="#">wheel servicing</Link>
-                                    <Link to="#"><i className="fa-solid fa-arrow-right"></i></Link>
+                                    <Link >wheel servicing</Link>
+                                    <Link ><i className="fa-solid fa-arrow-right"></i></Link>
                                 </div>
                             </div>
                         </SwiperSlide>
@@ -87,8 +87,8 @@ const Workers = () => {
                                     <img src="assets/image/wo4.jpg" alt="img" />
                                 </div>
                                 <div className="text">
-                                    <a style={{ paddingRight: "98px" }} href="#">car washing</a>
-                                    <Link to="#"><i className="fa-solid fa-arrow-right"></i></Link>
+                                    <Link style={{ paddingRight: "98px" }} >car washing</Link>
+                                    <Link ><i className="fa-solid fa-arrow-right"></i></Link>
                                 </div>
                             </div>
                         </SwiperSlide>
@@ -98,8 +98,8 @@ const Workers = () => {
                                     <img src="assets/image/wo5.jpg" alt="img" />
                                 </div>
                                 <div className="text">
-                                    <Link to="#">car diagnostic</Link>
-                                    <Link to="#"><i className="fa-solid fa-arrow-right"></i></Link>
+                                    <Link >car diagnostic</Link>
+                                    <Link ><i className="fa-solid fa-arrow-right"></i></Link>
                                 </div>
                             </div>
                         </SwiperSlide>
@@ -109,8 +109,8 @@ const Workers = () => {
                                     <img src="assets/image/wo6.jpg" alt="img" />
                                 </div>
                                 <div className="text">
-                                    <Link to="#">car washing</Link>
-                                    <Link to="#"><i className="fa-solid fa-arrow-right"></i></Link>
+                                    <Link >car washing</Link>
+                                    <Link ><i className="fa-solid fa-arrow-right"></i></Link>
                                 </div>
                             </div>
                         </SwiperSlide>

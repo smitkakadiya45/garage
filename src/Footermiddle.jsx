@@ -15,22 +15,22 @@ const Footermiddle = () => {
                         Motores gives you all elements which <br />
                         are necessary for your design goals.
                     </p>
-                    <a className="div1" href="#">
+                    <Link className="div1">
                         <i className="fa fa-home pe-3 text-white"></i>
                         174 Guild Street, Town MT.
-                    </a>
-                    <a className="div2" href="#">
+                    </Link>
+                    <Link className="div2">
                         <i className="fa fa-phone pe-3 text-white"></i>
                         (+44) 123 456 7892
-                    </a>
-                    <a className="div3" href="#">
+                    </Link>
+                    <Link className="div3">
                         <i className="fa fa-envelope pe-3 text-white"></i>
                         example@yourmail.com
-                    </a>
-                    <a className="f" href="https://www.facebook.com/" target="_blank">
+                    </Link>
+                    <Link className="f" to="https://www.facebook.com/" target="_blank">
                         <i className="fab fa-facebook-f"></i>
                         facebook
-                    </a>
+                    </Link>
                 </div>
                 <div className="footer-middle-child">
                     <div className="middle-title">
@@ -52,29 +52,29 @@ const Footermiddle = () => {
                         <p>sunday</p>
                         <span>closed</span>
                     </div>
-                    <a className="f f2" href="https://x.com/" target="_blank">
+                    <Link className="f f2" to="https://x.com/" target="_blank">
                         <i className="fab fa-twitter"></i>
                         twitter
-                    </a>
+                    </Link>
                 </div>
                 <div className="footer-middle-child">
                     <div className="middle-title">
                         services
                         <div className="ul-mt"></div>
                     </div>
-                    <Link to="#">
+                    <Link >
                         <i className="fa-solid fa-angle-right"></i>
                         engine diagnostics
                     </Link>
-                    <Link to="#">
+                    <Link>
                         <i className="fa-solid fa-angle-right"></i>
                         oil & filters
                     </Link>
-                    <Link to="#">
+                    <Link>
                         <i className="fa-solid fa-angle-right"></i>
                         brake repair
                     </Link>
-                    <Link to="#">
+                    <Link>
                         <i className="fa-solid fa-angle-right"></i>
                         wheel alignment
                     </Link>
@@ -95,10 +95,10 @@ const Footermiddle = () => {
                             <i className="fas fa-paper-plane"></i>
                         </button>
                     </div>
-                    <a className="f f4" href="https://in.linkedin.com/" target="_blank">
+                    <Link className="f f4" to="https://in.linkedin.com/" target="_blank">
                         <i className="fab fa-linkedin-in"></i>
                         linkedin
-                    </a>
+                    </Link>
                 </div>
             </div>
         </div>

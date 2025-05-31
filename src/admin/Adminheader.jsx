@@ -17,7 +17,7 @@ const Adminheader = () => {
                                 <Link to={"/adminpanel"}>Home</Link>
                             </li>
                             <li>
-                                {/* <Link to="#">pages</a>
+                                {/* <Link>pages</a>
                 <i className="fa-solid fa-angle-down"></i> */}
                                 <ul>
                                     <li>
@@ -33,7 +33,7 @@ const Adminheader = () => {
                                         {/* <Link className="p" to={"/ourteam"}>our team</Link> */}
                                     </li>
                                     <li>
-                                        {/* <Link className="p" to="#">
+                                        {/* <Link className="p">
                       FAQ
                     </Link> */}
                                     </li>
@@ -43,47 +43,47 @@ const Adminheader = () => {
                                 </ul>
                             </li>
                             {/* <li>
-                <Link to="#">services</Link>
+                <Link >services</Link>
                 <i className="fa-solid fa-angle-down"></i>
                 <ul className="ff">
                   <li>
-                    <Link className="p" to="#">
+                    <Link className="p" >
                       engine diagnosicts
                     </Link>
                   </li>
                   <li>
-                    <Link className="p" to="#">
+                    <Link className="p" >
                       oil and filters
                     </Link>
                   </li>
                   <li>
-                    <Link className="p" to="#">
+                    <Link className="p">
                       brake repair
                     </Link>
                   </li>
                   <li>
-                    <Link className="p" to="#">
+                    <Link className="p">
                       wheel alignment
                     </Link>
                   </li>
                   <li>
-                    <Link className="p" to="#">
+                    <Link className="p">
                       general service
                     </Link>
                   </li>
                   <li>
-                    <Link className="p" to="#">
+                    <Link className="p">
                       bettry checking
                     </Link>
                   </li>
                 </ul>
               </li> */}
                             <li>
-                                {/* <Link to="#">our details</Link> */}
+                                {/* <Link >our details</Link> */}
                                 {/* <Link to="/service">our service</Link> */}
                             </li>
                             <li>
-                                {/* <Link to="#">blog detail</a> */}
+                                {/* <Link>blog detail</a> */}
                                 {/* <Link to="/about">about us</Link> */}
                             </li>
                             <li>

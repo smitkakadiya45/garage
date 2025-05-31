@@ -12,7 +12,7 @@ const First = (abc) => {
                 <strong>{abc.title}</strong>
                 <span>
                   <Link to="/">Home</Link>
-                  <Link to="#">{abc.title}</Link>
+                  <Link>{abc.title}</Link>
                 </span>
               </p>
             </div>
