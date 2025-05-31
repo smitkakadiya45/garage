@@ -7,7 +7,7 @@ import { useNavigate } from 'react-router-dom';
 import Header from './Header';
 import Footer from './Footer';
 
-const BookingForm = () => {
+const Booking = () => {
 
 
     var a = useRef();
@@ -73,4 +73,4 @@ const BookingForm = () => {
     );
 };
 
-export default BookingForm;
+export default Booking;
