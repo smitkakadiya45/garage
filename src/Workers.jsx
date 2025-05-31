@@ -76,7 +76,7 @@ const Workers = () => {
                                 </div>
                                 <div className="text">
                                     <Link to="#">wheel servicing</a>
-                                    <Link to="#"><i className="fa-solid fa-arrow-right"></i></a>
+                                    <Link to="#"><i className="fa-solid fa-arrow-right"></i></Link>
                                 </div>
                             </div>
                         </SwiperSlide>
