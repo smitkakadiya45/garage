@@ -53,8 +53,8 @@ const Workers = () => {
                                     <img src="assets/image/wo1.jpg" alt="img" />
                                 </div>
                                 <div className="text">
-                                    <a href="#">engine servicing</a>
-                                    <a href="#"><i className="fa-solid fa-arrow-right"></i></a>
+                                    <Link to="#">engine servicing</Link>
+                                    <Link to="#"><i className="fa-solid fa-arrow-right"></i></Link>
                                 </div>
                             </div>
                         </SwiperSlide>
@@ -64,8 +64,8 @@ const Workers = () => {
                                     <img src="assets/image/wo2.jpg" alt="img" />
                                 </div>
                                 <div className="text">
-                                    <a style={{ paddingRight: "98px" }} href="#">Dent repair glass</a>
-                                    <a href="#"><i className="fa-solid fa-arrow-right"></i></a>
+                                    <Link style={{ paddingRight: "98px" }} to="#">Dent repair glass</Link>
+                                    <Link to="#"><i className="fa-solid fa-arrow-right"></i></Link>
                                 </div>
                             </div>
                         </SwiperSlide>
@@ -75,8 +75,8 @@ const Workers = () => {
                                     <img src="assets/image/wo3.jpg" alt="img" />
                                 </div>
                                 <div className="text">
-                                    <a href="#">wheel servicing</a>
-                                    <a href="#"><i className="fa-solid fa-arrow-right"></i></a>
+                                    <Link to="#">wheel servicing</a>
+                                    <Link to="#"><i className="fa-solid fa-arrow-right"></i></a>
                                 </div>
                             </div>
                         </SwiperSlide>
@@ -87,7 +87,7 @@ const Workers = () => {
                                 </div>
                                 <div className="text">
                                     <a style={{ paddingRight: "98px" }} href="#">car washing</a>
-                                    <a href="#"><i className="fa-solid fa-arrow-right"></i></a>
+                                    <Link to="#"><i className="fa-solid fa-arrow-right"></i></Link>
                                 </div>
                             </div>
                         </SwiperSlide>
@@ -97,8 +97,8 @@ const Workers = () => {
                                     <img src="assets/image/wo5.jpg" alt="img" />
                                 </div>
                                 <div className="text">
-                                    <a href="#">car diagnostic</a>
-                                    <a href="#"><i className="fa-solid fa-arrow-right"></i></a>
+                                    <Link to="#">car diagnostic</Link>
+                                    <Link to="#"><i className="fa-solid fa-arrow-right"></i></Link>
                                 </div>
                             </div>
                         </SwiperSlide>
@@ -108,8 +108,8 @@ const Workers = () => {
                                     <img src="assets/image/wo6.jpg" alt="img" />
                                 </div>
                                 <div className="text">
-                                    <a href="#">car washing</a>
-                                    <a href="#"><i className="fa-solid fa-arrow-right"></i></a>
+                                    <Link to="#">car washing</Link>
+                                    <Link to="#"><i className="fa-solid fa-arrow-right"></i></Link>
                                 </div>
                             </div>
                         </SwiperSlide>

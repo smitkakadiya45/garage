@@ -9,24 +9,24 @@ const Excellentpro = (change) => {
           <div className="ho">
             <ul>
               <li>
-                <a href="https://www.facebook.com/" target="_blank">
+                <Link to="https://www.facebook.com/" target="_blank">
                   <i className="fab fa-facebook-f"></i>
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="https://x.com/" target="_blank">
+                <Link to="https://x.com/" target="_blank">
                   <i className="fab fa-twitter" target="_blank"></i>
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="https://in.linkedin.com/" target="_blank">
+                <Link to="https://in.linkedin.com/" target="_blank">
                   <i className="fab fa-linkedin-in"></i>
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="https://www.instagram.com/" target="_blank">
+                <Link to="https://www.instagram.com/" target="_blank">
                   <i className="fab fa-instagram"></i>
-                </a>
+                </Link>
               </li>
             </ul>
           </div>

@@ -11,7 +11,7 @@ const Bestpro = (abc) => {
                     <img src={abc.img} alt="service" />
                     <div className="b-h">
                         <p>
-                            <a href="#">{abc.title}</a>
+                            <Link>{abc.title}</Link>
                             <span>
                                 We will help return your car to a <br />
                                 functioning condition

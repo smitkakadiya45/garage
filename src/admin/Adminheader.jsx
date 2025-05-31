@@ -17,7 +17,7 @@ const Adminheader = () => {
                                 <Link to={"/adminpanel"}>Home</Link>
                             </li>
                             <li>
-                                {/* <a href="#">pages</a>
+                                {/* <Link to="#">pages</a>
                 <i className="fa-solid fa-angle-down"></i> */}
                                 <ul>
                                     <li>
@@ -33,9 +33,9 @@ const Adminheader = () => {
                                         {/* <Link className="p" to={"/ourteam"}>our team</Link> */}
                                     </li>
                                     <li>
-                                        {/* <a className="p" href="#">
+                                        {/* <Link className="p" to="#">
                       FAQ
-                    </a> */}
+                    </Link> */}
                                     </li>
                                     <li>
                                         {/* <Link className="p" to = "pricing">pricing</Link> */}
@@ -43,48 +43,48 @@ const Adminheader = () => {
                                 </ul>
                             </li>
                             {/* <li>
-                <a href="#">services</a>
+                <Link to="#">services</Link>
                 <i className="fa-solid fa-angle-down"></i>
                 <ul className="ff">
                   <li>
-                    <a className="p" href="#">
+                    <Link className="p" to="#">
                       engine diagnosicts
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a className="p" href="#">
+                    <Link className="p" to="#">
                       oil and filters
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a className="p" href="#">
+                    <Link className="p" to="#">
                       brake repair
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a className="p" href="#">
+                    <Link className="p" to="#">
                       wheel alignment
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a className="p" href="#">
+                    <Link className="p" to="#">
                       general service
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a className="p" href="#">
+                    <Link className="p" to="#">
                       bettry checking
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </li> */}
                             <li>
-                                {/* <a href="#">our details</a> */}
-                                {/* <a href="/service">our service</a> */}
+                                {/* <Link to="#">our details</Link> */}
+                                {/* <Link to="/service">our service</Link> */}
                             </li>
                             <li>
-                                {/* <a href="#">blog detail</a> */}
-                                {/* <a href="/about">about us</a> */}
+                                {/* <Link to="#">blog detail</a> */}
+                                {/* <Link to="/about">about us</Link> */}
                             </li>
                             <li>
                                 {/* <Link to="/contact">contact</Link> */}

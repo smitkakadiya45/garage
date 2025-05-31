@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Footermiddle = () => {
     return(
@@ -61,26 +62,26 @@ const Footermiddle = () => {
                         services
                         <div className="ul-mt"></div>
                     </div>
-                    <a href="#">
+                    <Link to="#">
                         <i className="fa-solid fa-angle-right"></i>
                         engine diagnostics
-                    </a>
-                    <a href="#">
+                    </Link>
+                    <Link to="#">
                         <i className="fa-solid fa-angle-right"></i>
                         oil & filters
-                    </a>
-                    <a href="#">
+                    </Link>
+                    <Link to="#">
                         <i className="fa-solid fa-angle-right"></i>
                         brake repair
-                    </a>
-                    <a href="#">
+                    </Link>
+                    <Link to="#">
                         <i className="fa-solid fa-angle-right"></i>
                         wheel alignment
-                    </a>
-                    <a className="f f3" href="https://www.youtube.com/" target="_blank">
+                    </Link>
+                    <Link className="f f3" to="https://www.youtube.com/" target="_blank">
                         <i className="fab fa-youtube"></i>
                         youtube
-                    </a>
+                    </Link>
                 </div>
                 <div className="footer-middle-child">
                     <div className="middle-title">
