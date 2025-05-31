@@ -11,6 +11,7 @@ import './styles.css';
 
 // import required modules
 import { EffectCoverflow, Pagination } from 'swiper/modules';
+import { Link } from 'react-router-dom';
 
 // import React from "react";
 
@@ -75,7 +76,7 @@ const Workers = () => {
                                     <img src="assets/image/wo3.jpg" alt="img" />
                                 </div>
                                 <div className="text">
-                                    <Link to="#">wheel servicing</a>
+                                    <Link to="#">wheel servicing</Link>
                                     <Link to="#"><i className="fa-solid fa-arrow-right"></i></Link>
                                 </div>
                             </div>
