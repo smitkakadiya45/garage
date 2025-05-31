@@ -13,7 +13,7 @@ const Specialservicepro = (abc) => {
                 We are the assistance that assessments <br />
                 genuinely the issues with the vehicle.
             </p>
-            <a className="btn" href="/book">book service</a>
+            <Link className="btn" href="/booking">book service</Link>
         </div>
     </>
   )
