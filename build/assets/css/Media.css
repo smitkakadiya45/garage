@@ -821,9 +821,11 @@
   .header-inner-child .main>li>ul>li .p {
     color: white;
   }
-.header-inner-child .main > li > ul > li:hover .p{
-  color: white;
-}
+
+  .header-inner-child .main>li>ul>li:hover .p {
+    color: white;
+  }
+
   .header-inner-child .main>li>ul>li {
     padding: 0;
     background-color: black;
@@ -1120,5 +1122,26 @@
 
   .workers-inner-child .text a {
     padding: 0;
+  }
+
+  .footer-middle-inner .footer-middle-child .input input {
+    width: 60%;
+  }
+
+  .success-inner-child strong {
+    padding-top: 25px;
+  }
+
+
+}
+
+
+@media (max-width: 440px) {
+  .success-inner-child .imgs2 img {
+    left: 0%
+  }
+
+  .success-inner-child .imgs1::before {
+    display: none;
   }
 }
