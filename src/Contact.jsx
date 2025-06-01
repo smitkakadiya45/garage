@@ -5,16 +5,23 @@ import Contactlast from "./Contactlast";
 import Footermiddle from "./Footermiddle";
 import Footerbottom from "./Footerbottom";
 import Header from "./Header";
+import { Provider } from "react-redux";
+import { st } from "./Redux";
+// import Loader from "./Loader";
 
 const Contact = () => {
+
+
   return (
     <>
-    <Header/>
-      <Contactfirst />
-      <Contactsecond />
-      <Contactlast />
-      <Footermiddle />
-      <Footerbottom />
+      <Header />
+      <Provider store={st}>
+        <Contactfirst />
+        <Contactsecond />
+        <Contactlast />
+        <Footermiddle />
+        <Footerbottom />
+      </Provider>
     </>
   );
 };

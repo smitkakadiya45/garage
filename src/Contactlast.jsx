@@ -1,12 +1,16 @@
 // import react from "react";
 import { useRef } from "react";
-import axios from 'axios';
+// import axios from 'axios';
+import { useDispatch, useSelector } from "react-redux";
+import { Inq } from "./Redux";
+import Loader from "./Loader";
 
 
 const Contactlast = () => {
 
 
-
+    var { loading, error } = useSelector((state) => state);
+    var dis = useDispatch();
     var a = useRef();
     var b = useRef();
     var c = useRef();
@@ -27,15 +31,35 @@ const Contactlast = () => {
         var massage = e.current.value;
 
 
+        dis(Inq(name, email, subject, number, massage))
 
-        axios.post("https://g-b9eg.onrender.com/inquiry", { name, email, subject, number, massage }).then(function (response) {
-            if (response.data.status === "seccess") {
-                alert("massage was sent")
-            }
-        })
+        // axios.post("https://g-b9eg.onrender.com/inquiry", { name, email, subject, number, massage }).then(function (response) {
+        //     if (response.data.status === "seccess") {
+        //         alert("massage was sent")
+        //     }
+        // })
 
     }
 
+
+    if (loading) {
+        return (
+            <>
+                <h1>
+                    <Loader />
+                </h1>
+            </>
+        )
+    }
+    if (error != null) {
+        return (
+            <>
+                <h1>
+                    {error}
+                </h1>
+            </>
+        )
+    }
     return (
         <>
             <form method="post" onSubmit={demo}>
