@@ -1132,7 +1132,10 @@
     padding-top: 25px;
   }
 
-
+  .header-inner-child .main li {
+    margin: 0px 20px;
+    width: 100%;
+  }
 }
 
 
@@ -1143,5 +1146,10 @@
 
   .success-inner-child .imgs1::before {
     display: none;
+  }
+
+  .header-inner-child .main li {
+    margin: 0px 20px;
+    width: 100%;
   }
 }
