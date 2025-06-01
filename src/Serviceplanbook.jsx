@@ -1,6 +1,7 @@
 import { useRef, useState } from "react";
 import { plan } from "./Redux";
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
+import Loader from "./Loader";
 
 const Serviceplanbook = () => {
 
@@ -13,6 +14,7 @@ const Serviceplanbook = () => {
     var g = useRef();
     var h = useRef();
     const [data, setdata] = useState();
+     var { loading, error } = useSelector((state) => state);
     const dis = useDispatch();
     // const nav = useNavigate();
 
@@ -61,6 +63,25 @@ const Serviceplanbook = () => {
          dis(plan(name, email, serviceplan, date, time, number , price))
 
     };
+
+      if (loading) {
+        return (
+            <>
+                <h1>
+                    <Loader/>
+                </h1>
+            </>
+        )
+    }
+    if (error != null) {
+        return (
+            <>
+                <h1>
+                    {error}
+                </h1>
+            </>
+        )
+    }
 
     return (
         <>
