@@ -8,9 +8,9 @@ import Header from "./Header";
 import { Provider } from "react-redux";
 import { st } from "./Redux";
 // import Loader from "./Loader";
+// import Loader from "./Loader";
 
 const Contact = () => {
-
 
   return (
     <>

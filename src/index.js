@@ -11,8 +11,8 @@ import Error from './Error';
 import Ourteam from './Ourteam';
 import Price from './Price';
 import Serviceplan from './Serviceplan';
-import Admin from './admin/Admin';
 import Booking from './Booking';
+import Admin from './admin/Admin';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -28,7 +28,7 @@ root.render(
       <Route path="/pricing" element={<Price/>} />
       <Route path="/booking" element={<Booking/>} />
       <Route path="/serviceplan" element={<Serviceplan/>} />
-      <Route path="/adminpanel" element={<Admin/>} />
+      <Route path="/Adminpanel" element={<Admin/>} />
       <Route path="/*" element={<Error/>} />
      </Routes>
      </BrowserRouter>

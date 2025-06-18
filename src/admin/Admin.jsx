@@ -15,7 +15,7 @@ const Admin = () => {
     const [set, setset] = useState("inquires");
 
     useEffect(() => {
-        axios.get("https://g-b9eg.onrender.com/inquiryget").then(function (response) {
+        axios.get("https://g-b9eg.onrender.com/inquiryget").then(function(response){
             setdata(response.data.data)
         })
 
@@ -23,7 +23,6 @@ const Admin = () => {
 
     const demo = () => {
         setset("inquires")
-
     }
     const demo1 = () => {
         setset("book services")
@@ -144,20 +143,20 @@ const Admin = () => {
                                     </thead>
                                     <tbody>
                                         {plan.map((e) => {
-                                          return(
-                                            <>
-                                              <tr>
-                                                {/* <td>{e.id}</td> */}
-                                                <td>{e.name}</td>
-                                                <td>{e.email}</td>
-                                                <td>{e.number}</td>
-                                                <td>{e.serviceplan}</td>
-                                                <td>{e.date}</td>
-                                                <td>{e.time}</td>
-                                                <td>{e.price}</td>
-                                            </tr>
-                                            </>
-                                          )
+                                            return (
+                                                <>
+                                                    <tr>
+                                                        {/* <td>{e.id}</td> */}
+                                                        <td>{e.name}</td>
+                                                        <td>{e.email}</td>
+                                                        <td>{e.number}</td>
+                                                        <td>{e.serviceplan}</td>
+                                                        <td>{e.date}</td>
+                                                        <td>{e.time}</td>
+                                                        <td>{e.price}</td>
+                                                    </tr>
+                                                </>
+                                            )
                                         })}
                                     </tbody>
                                 </table>
