@@ -49,7 +49,11 @@ function Inq(name, email, subject, number, massage) {
         })
         try {
 
-            await axios.post("https://g-b9eg.onrender.com/inquiry", { name, email, subject, number, massage });
+            await axios.post("https://g-b9eg.onrender.com/inquiry", { name, email, subject, number, massage }).then(function(response){
+                 if (response.data.status === "seccess") {
+                alert("massge was sent.")
+            }
+            });
 
             dis({
                 type: "Insert"
@@ -76,7 +80,11 @@ function ser(name, email, service, date, time, notes, number) {
         })
         try {
 
-            await axios.post("https://g-b9eg.onrender.com/servicebook", { name, email, service, date, time, notes, number });
+            await axios.post("https://g-b9eg.onrender.com/servicebook", { name, email, service, date, time, notes, number }).then(function(response){
+                 if (response.data.status === "seccess") {
+                alert("we are contact you soon as possible.")
+            }
+            });
 
             dis({
                 type: "Insert"
@@ -101,7 +109,11 @@ function plan(name, email, serviceplan, date, time, number, price) {
         })
         try {
 
-            await axios.post("https://g-b9eg.onrender.com/serviceplan", { name, email, serviceplan, date, time, number, price });
+            await axios.post("https://g-b9eg.onrender.com/serviceplan", { name, email, serviceplan, date, time, number, price }).then(function (response) {
+            if (response.data.status === "seccess") {
+                alert("we are contact you soon as possible")
+            }
+        });
 
             dis({
                 type: "Insert"
